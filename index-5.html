@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Airthemetic operators</h1>
+    <p id="demo"></p>
+    <p id="ex2"></p>
+    <script>
+      // increament operator
+      let counter = 0;
+      //  counter = counter + 1;
+      counter++; // counter=counter+1
+      console.log("counter::", counter);
+
+      counter++;
+      counter++;
+      // decreament operator
+      // counter=counter-1;
+      counter--;
+      console.log("counter::", counter);
+      // addition assignment operator
+      //  counter= counter + 5;
+      counter += 5;
+
+      // substraction assignment operator
+      //   counter = counter - 5;
+      counter -= 5;
+
+      counter *= 5;
+      counter /= 5;
+      // counter = counter % 5;
+      counter %= 5;
+      // + operator if string--concatination
+      const firtstname = "sharad";
+      const lastname = "thenge";
+      const fullname = firtstname + lastname;
+
+      let text1 = "what a very ";
+      // text1 = text1+"nice day"
+      text1 += "nice day";
+      console.log("value of text1 variables is::", text1);
+      document.getElementById("demo").innerHTML = counter;
+      document.getElementById("ex2").innerHTML =  text1
+    </script>
+  </body>
+</html>
